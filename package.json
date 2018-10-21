@@ -1,0 +1,32 @@
+{
+  "name": "cerebro-open-coords",
+  "description": "Cerebro plugin to open coordinates in your default kml app",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "5urpher",
+    "email": "surpher@live.com"
+  },
+  "repository": {
+    "url": "https://github.com/5urpher/cerebro-open-coords"
+  },
+  "dependencies": {
+    "cerebro-tools": "^0.1.8",
+    "cerebro-ui": "^0.0.16"
+  },
+  "devDependencies": {
+    "cerebro-scripts": "0.0.25"
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "cerebro",
+    "cerebro-plugin"
+  ],
+  "scripts": {
+    "start": "cerebro-scripts start",
+    "build": "cerebro-scripts build",
+    "test": "cerebro-scripts test",
+    "clear": "cerebro-scripts clear",
+    "prepublish": "yarn clear && yarn build"
+  }
+}
