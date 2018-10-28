@@ -17,7 +17,7 @@
 
 ![](screenshot.png)
 
- A kml file will be save to your documents folder, and then opened in your default kml app.
+ A kml file will be save to your documents folder, and then opened in your default kml app (e.g. Google Earth).
 
  
 ## Related
